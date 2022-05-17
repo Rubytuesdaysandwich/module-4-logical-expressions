@@ -24,13 +24,13 @@ if (!isset($e)){
 }//if e is not set it returns 200 if it is set $e = 100. 100 will be returned on echo
 echo $e;
 ?>
-
+<br/>
 <?php
-// don't reject 0 or 0.0
-
-if (emmpty($quantity) && !is_numeric($quantity)){
+$quantity = "";
+if (empty($quantity) && !is_numeric($quantity)){
     echo "You must enter a quantity.";
-}
+}// don't reject 0 or 0.0 allows the user to enter 0 as a valid value for a form if needed.
+//if no value is entered however it will ask for a quantity
 ?>
 
 
