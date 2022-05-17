@@ -18,7 +18,7 @@ if(($a>$b)||($c>$d)){
 ?>
 <br/>
 <?php
-$e = 100;
+$e = 100;// equals not true !false = true !true =false
 if (!isset($e)){
     $e = 200;//good way to set default values if value is not set
 }//if e is not set it returns 200 if it is set $e = 100. 100 will be returned on echo
