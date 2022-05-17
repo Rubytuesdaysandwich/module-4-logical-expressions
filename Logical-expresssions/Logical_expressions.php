@@ -6,7 +6,7 @@
   <body>
     <?php
         $date = date('F',time());
-        echo $date;
+       // echo $date;
         ?>
         <br/>
         <?php
